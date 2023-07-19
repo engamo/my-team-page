@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header-section {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 110px;
+	margin-bottom: 96px;
+}
+.header-text1 h1 {
+	color: #000;
+	font-family: 'PT Serif', serif;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: -1.62px;
+}
+.header-text2 h2 {
+	color: #000;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.header-text2 p {
+	width: 439px;
+}
+img {
+	background: lightgray 50% cover no-repeat;
+	margin-right: -20px;
+	margin-bottom: 10px;
+	
+}
+.photo1 {
+	width: 238px; 
+	height: 341px;
+}
+.photo2 {
+	width: 238px; 
+	height: 341px;
+}
+.photo3 {
+	width: 238px; 
+	height: 341px;
+}
+.photo4 {
+	width: 238px; 
+	height: 341px;
+}
+.photo5 {
+	width: 238px; 
+	height: 341px;
+}
+.photo6 {
+	width: 238px; 
+	height: 341px;
+}
+.bottom-div1 {
+	margin-top: 100px;
+}
+.image-section {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(100px, auto));
+	grid-template-rows: repeat(2, auto);
+	grid-gap: 10px;
+	justify-content: space-evenly;
+	align-items: center;
+} 
+
+.image-text-item {
+	display: flex;
+	justify-content: flex-end; 
+	align-items: flex-start;
+	margin-bottom: 7.8rem;
+}
+.image-text-item h3 {
+	color: #000;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+.image-text-item h4 {
+	transform: rotate(90deg);
+	white-space: nowrap;
+	color: #000;
+	font-family: 'PT Serif', serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+}
+.product-owner {
+	margin-top: 43px;
+	margin-left: -15px;
+}
+.art-director {
+	margin-top: 34px;
+	margin-left: -5px;
+}
+.tech-lead {
+	margin-top: 24px;
+	margin-left: 4px;
+}
+.ux-designer {
+	margin-top: 30px;
+	margin-left: -1px;
+}
+.developer {
+	margin-top: 26px;
+	margin-left: 3px;
+}
+footer {
+	text-align: center;
+	color: #A9A9A9;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-bottom: 1.5rem;
+}
+span {
+	font-weight: 700;
+	text-decoration-line: underline;
+}
